@@ -1,0 +1,180 @@
+/* Глобальные стили */
+
+@import url("bootstrap.min.css");
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300&subset=cyrillic);
+ body {
+    background: url(../images/body-bg.png) fixed;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+}
+#top-header {
+    background: #fff;
+    padding: 10px 0;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+.navbar .logo {
+    opacity: 0.8;
+}
+.cart-container {
+    background: #6C6F78;
+}
+.tel {
+    margin-top: 10px;
+    font-size: 36px;
+}
+.price {
+    font-size: 36px;
+    margin-top: 2px;
+    font-weight: 700;
+}
+.shopping-cart {
+    margin-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.sales {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px 0;
+    background: #df6a78;
+    opacity: 0.8;
+}
+.product {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #888888;
+    margin-bottom: 20px;
+}
+.header {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.phone-link {
+    text-decoration: none;
+    text-shadow: 1px #888;
+    color: #4E4E4E;
+}
+.phone-link:hover {
+    color: #4E4E4E;
+    text-decoration: none;
+}
+.about {
+    border-radius: 10px;
+    background: rgba(118, 194, 175, 0.5);
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px #888888;
+}
+.about p {
+    font-size: 18px;
+    font-family: 'Roboto Slab';
+}
+.title {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    color: #D24D57;
+    margin-bottom: 15px;
+}
+.features {
+    margin-bottom: 14px;
+}
+.features h4 {
+    color: #D24D57;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+}
+.features p {
+    font-family: 'Roboto Slab';
+}
+.feature {
+    background: transparent;
+    border: none;
+}
+.feature img {
+    margin-top: 10px;
+    opacity: 0.8;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #888888;
+}
+.img-circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.7);*/
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #888888;
+}
+.footer {
+    width: 100%;
+    color: #fff;
+    padding-top: 21px;
+    padding-bottom: 11px;
+    background: #6C6F78;
+    opacity: 0.8;
+}
+.form-control {
+    margin-left: 24px;
+}
+.cart-button {
+    text-decoration: none;
+    color: #888888
+}
+.cart-button:hover {
+    text-decoration: none;
+    color: #888888;
+}
+.cart {
+    margin-top: 32px;
+}
+.btn {
+    margin: 4px;
+    box-shadow: 1px 1px 5px #888888;
+}
+.btn-hot,
+.btn-primary {
+    color: #fff;
+    background-color: #db5566;
+    border-bottom: 2px solid #af4451;
+}
+.btn-hot:hover,
+.btn-sky.active:focus,
+.btn-hot:focus,
+.open>.dropdown-toggle.btn-hot,
+.btn-hot:active {
+    color: #fff;
+    background-color: #df6a78;
+    border-bottom: 2px solid #b25560;
+    outline: none;
+}
+.btn-hot:active,
+.btn-hot.active {
+    color: #fff;
+    background-color: #c04b59;
+    border-top: 2px solid #9a3c47;
+    margin-top: 2px;
+}
+.item {
+    border: none;
+    background: transparent;
+}
+.product .row {
+    margin-bottom: 0px;
+}
+.product .caption {
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 6px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
