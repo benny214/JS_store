@@ -44,6 +44,7 @@
     padding: 5px 0;
     background: #df6a78;
     opacity: 0.8;
+    color: #ecf0f1
 }
 .product {
     background: rgba(255, 255, 255, 0.5);
@@ -111,11 +112,14 @@
 }
 .footer {
     width: 100%;
-    color: #fff;
+    color: #ecf0f1;
     padding-top: 21px;
     padding-bottom: 11px;
     background: #6C6F78;
     opacity: 0.8;
+}
+.footer a {
+    color: #ecf0f1;
 }
 .form-control {
     margin-left: 24px;
