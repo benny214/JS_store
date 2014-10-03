@@ -7,6 +7,7 @@
     background: url(../images/body-bg.png) fixed;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16px;
+    padding-top: 70px;
 }
 #top-header {
     background: #fff;
@@ -14,15 +15,8 @@
     font-size: 18px;
     opacity: 0.8;
 }
-.navbar {
-    background: rgba(255, 255, 255, 0.5);
-    border: none;
-}
-.navbar .logo {
+.logo {
     opacity: 0.8;
-}
-.cart-container {
-    background: #6C6F78;
 }
 .tel {
     margin-top: 10px;
@@ -53,7 +47,7 @@
     box-shadow: 5px 5px 5px #888888;
     margin-bottom: 20px;
 }
-.header {
+.mid-header {
     padding-bottom: 16px;
     padding-top: 16px;
 }
@@ -106,7 +100,6 @@
 .img-circle {
     margin-top: 10px;
     margin-bottom: 10px;
-    /* border: 1px solid rgba(0, 0, 0, 0.7);*/
     border-radius: 50%;
     box-shadow: 3px 3px 3px #888888;
 }
