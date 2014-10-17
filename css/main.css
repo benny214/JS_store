@@ -4,10 +4,13 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300&subset=cyrillic);
  body {
-    background: url(../images/body-bg.png) fixed;
+    background: url(../images/sprinkles.png);
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16px;
     padding-top: 70px;
+}
+img {
+    width: 100
 }
 #top-header {
     background: #fff;
@@ -52,7 +55,6 @@
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 5px 5px 5px #888888;
     margin-bottom: 20px;
 }
 .mid-header {
@@ -72,7 +74,6 @@
     border-radius: 10px;
     background: rgba(118, 194, 175, 0.5);
     margin-bottom: 20px;
-    box-shadow: 3px 3px 3px #888888;
 }
 .about p {
     font-size: 18px;
@@ -146,7 +147,6 @@
 }
 .btn {
     margin: 4px;
-    box-shadow: 1px 1px 5px #888888;
 }
 .btn-hot,
 .btn-primary {
@@ -182,7 +182,6 @@
     background: rgba(255, 255, 255, 0.8);
     margin-bottom: 6px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #888888;
 }
 .back-to-top {
     cursor: pointer;
