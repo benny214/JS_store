@@ -776,7 +776,7 @@
     app.template('cart-item', function (add, item) {
         add('<div class="cart-item" data-name="' + escapeHtml(item.name) + '">')
         add('<div class="cart-item-name">' + escapeHtml(item.name) + '</div>')
-        add('<a href="#" class="cart-item-remove" data-name="' + escapeHtml(item.name) + '">&times;</a>')
+        add('<a class="cart-item-remove" data-name="' + escapeHtml(item.name) + '">&times;</a>')
         add('<input class="cart-item-quantity form-control" type="text" value="' + item.quantity + '" data-name="' + escapeHtml(item.name) + '">')
         add('<div class="cart-item-multiply-sign">&times;</div>')
         // If price with currency is too big showing price only.
